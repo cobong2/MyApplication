@@ -6,28 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".ButtonAlign2Activity">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
     <Button
         android:id="@+id/btn1"
-        android:layout_width="wrap_content"
+        android:layout_width="200sp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:text="버튼1" />
-
-    <!--<Button
-        android:id="@+id/btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn1"
-        android:layout_toRightOf="@id/btn1"
-        android:text="버튼2" />
+        android:textSize="30sp"
+        android:text="계산기" />
 
     <Button
-        android:id="@+id/btn3"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn2"
+        android:layout_width="200sp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn2"
-        android:layout_toRightOf="@id/btn2"
-        android:text="버튼3" />-->
+        android:textSize="30sp"
+        android:text="MP3플레이어" />
+    </LinearLayout>
 
 </RelativeLayout>

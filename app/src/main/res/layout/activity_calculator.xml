@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalculatorActivity">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et1"
+            style="@style/OA_top_ratio"
+            android:maxLength="4" />
+
+        <TextView
+            android:id="@+id/tv1"
+            style="@style/OA_top_ratio"
+            android:layout_weight="1"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/et2"
+            style="@style/OA_top_ratio"
+            android:maxLength="4" />
+
+        <TextView
+            style="@style/OA_top_ratio"
+            android:layout_weight="1"
+            android:text="="
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tv2"
+            style="@style/OA_top_ratio"
+            android:layout_weight="6"
+            android:maxLength="15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout1"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            //라인1
+
+            <LinearLayout
+                style="@style/OA_Button2_ratio"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt7"
+                    style="@style/OA_Button_ratio"
+                    android:text="7" />
+
+                <Button
+                    android:id="@+id/bt8"
+                    style="@style/OA_Button_ratio"
+                    android:text="8" />
+
+                <Button
+                    android:id="@+id/bt9"
+                    style="@style/OA_Button_ratio"
+                    android:text="9" />
+            </LinearLayout>
+
+            //라인2
+
+            <LinearLayout
+                style="@style/OA_Button2_ratio"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt4"
+                    style="@style/OA_Button_ratio"
+                    android:text="4" />
+
+                <Button
+                    android:id="@+id/bt5"
+                    style="@style/OA_Button_ratio"
+                    android:text="5" />
+
+                <Button
+                    android:id="@+id/bt6"
+                    style="@style/OA_Button_ratio"
+                    android:text="6" />
+            </LinearLayout>
+
+            //라인3
+
+            <LinearLayout
+                style="@style/OA_Button2_ratio"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt1"
+                    style="@style/OA_Button_ratio"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/bt2"
+                    style="@style/OA_Button_ratio"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/bt3"
+                    style="@style/OA_Button_ratio"
+                    android:text="3" />
+            </LinearLayout>
+
+            //라인4
+
+            <LinearLayout
+                style="@style/OA_Button2_ratio"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt0"
+                    style="@style/OA_Button_ratio"
+                    android:layout_width="0sp"
+                    android:layout_weight="1"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/btResult"
+                    style="@style/OA_Button_ratio"
+                    android:layout_width="0sp"
+                    android:layout_weight="2"
+                    android:onClick="clkResult"
+                    android:text="=" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        //수식
+
+        <LinearLayout
+            style="@style/OA_Button_ratio"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btClear"
+                style="@style/OA_Button3_ratio"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/btDiv"
+                style="@style/OA_Button3_ratio"
+                android:text="/" />
+
+            <Button
+                android:id="@+id/btMulti"
+                style="@style/OA_Button3_ratio"
+                android:text="*" />
+
+            <Button
+                android:id="@+id/btSub"
+                style="@style/OA_Button3_ratio"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/btSum"
+                style="@style/OA_Button3_ratio"
+                android:text="+" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

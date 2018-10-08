@@ -3,4 +3,11 @@
     <string name="wtf">what the fuck!!!!!!!!!!!</string>
     <string name="sob">son of the bitch!!!!!!!!!!!!!</string>
     <string name="change">asdlfjasl;fjas;lfja;slkdfj</string>
+    <string name="calcTitle">계산기</string>
+    <string name="mp3Title">MP3플레이어</string>
+    <string name="twice">TWICE - Cheer Up</string>
+    <string name="redvelvet">Red Velvet - Peek A Boo</string>
+    <string name="stop">정지</string>
+    <string name="play">재생</string>
+    <string name="pause">일시정지</string>
 </resources>

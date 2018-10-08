@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MP3PlayerActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        style="@style/MP3_Button"
+        android:text="@string/twice" />
+
+    <Button
+        android:id="@+id/btn2"
+        style="@style/MP3_Button"
+        android:text="@string/redvelvet" />
+
+    <Button
+        android:id="@+id/btn3"
+        style="@style/MP3_Button"
+        android:text="@string/pause" />
+
+    <Button
+        android:id="@+id/btn4"
+        style="@style/MP3_Button"
+        android:text="@string/stop" />
+
+
+</LinearLayout>
